@@ -1,0 +1,144 @@
+.header {
+  background-color: lightblue;
+  color: white;
+  margin: 0 auto;
+  flex: none;
+  min-height: 4rem;
+  width: 100%;
+
+  @include below($medium-screen-size) {
+    margin: 0 auto 40px;
+  }
+
+}
+
+.header-container {
+  user-select: none;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: $max-width;
+  padding: 0 $side-padding;
+  position: relative;
+
+  @include below($medium-screen-size) {
+    display:block;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .branding {
+    float: left;
+    padding: 1rem 0;
+    @include below($medium-screen-size) {
+      display: block;
+      float: none;
+      text-align: center;
+    }
+  }
+
+  .small-logo {
+    display: inline-block;
+    font-size: 0;
+    vertical-align: top;
+  }
+
+  .site-nav__menu {
+    display: none;
+
+    @include below($medium-screen-size) {
+      @include position(absolute, 1.25em 1em null null);
+      border: 1px solid rgba($base-background-color, 0.5);
+      border-radius: 3px;
+      color: white;
+      cursor: pointer;
+      display: block;
+      font-size: $font-size-smallest;
+      font-weight: $font-weight-thin;
+      padding: 0.25em 0.5em;
+    }
+
+    &:active {
+      @include below($medium-screen-size) {
+        background-color: rgba($base-background-color, 0.125);
+        border-color: $base-background-color;
+      }
+    }
+
+  }
+  nav {
+    @include below($medium-screen-size) {
+      margin-top: -100%;
+      opacity: 0;
+      transition: opacity 250ms $ease-in-out-sine,
+                  margin 750ms $ease-in-out-sine;
+    }
+
+    @media print {
+      display: none;
+    }
+
+    .is-open & {
+      @include below($medium-screen-size) {
+        margin-top: 0;
+        opacity: 1;
+        transition: opacity 500ms $ease-in-out-sine 250ms,
+          margin 500ms $ease-in-out-sine;
+      }
+    }
+
+    img {
+      border-radius: 10%;
+      vertical-align: bottom;
+    }
+
+    ul {
+      list-style-type: none;
+      height: $navigation-height;
+      margin: 0;
+      padding: 0;
+
+      @include below($medium-screen-size) {
+        display: block;
+        text-align: center;
+      }
+    }
+
+    li {
+      display: block;
+      float: left;
+      margin: 0;
+
+      @include below($medium-screen-size) {
+        border-bottom: 1px solid darken(lightblue, 5);
+        background: lightblue;
+        display: block;
+        margin: 0;
+        width: 100%;
+      }
+      &:hover,
+      &.active {
+        background: darken(lightblue, 5);
+      }
+      &:first-child a {
+        border: 0;
+      }
+    }
+
+    li a {
+      border-left: 1px solid darken(lightblue, 5);
+      color: white;
+      float: left;
+      font-size: 100%;
+      font-weight: 600;
+      height: $navigation-height;
+      padding: 1rem;
+
+      @include below($medium-screen-size) {
+        text-align: center;
+        width: 100%;
+      }
+    }
+  }
+}

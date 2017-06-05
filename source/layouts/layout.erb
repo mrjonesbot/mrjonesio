@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>thoughtbot Middleman Template</title>
+    <title>samara mockup</title>
     <%= stylesheet_link_tag "main" %>
+    <%= javascript_include_tag "main" %>
   </head>
-  <body>
+  <body class="<%= page_classes %>">
     <main role="main">
       <%= yield %>
     </main>

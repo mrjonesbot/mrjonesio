@@ -1,6 +1,7 @@
 body {
   color: $base-font-color;
   font-family: $base-font-family;
+  font-weight: $font-weight-normal;
   font-size: $base-font-size;
   line-height: $base-line-height;
 }
@@ -13,12 +14,37 @@ h5,
 h6 {
   font-family: $heading-font-family;
   font-size: modular-scale(1);
+  font-weight: inherit;
   line-height: $heading-line-height;
-  margin: 0 0 $small-spacing;
+  margin: 1.414em 0 0.5em;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: $header-one-size;
+  //default font weight
+
+}
+h2 {
+  margin-top: 0;
+  font-size: $header-two-size;
+  //default font weight
+
+}
+h3 {
+  margin-top: 0;
+  font-size: $header-three-size;
+  //default font weight
+}
+h4 {
+  margin-top: 0;
+  font-size: $header-four-size;
+  //default font weight
+  
 }
 
 p {
-  margin: 0 0 $small-spacing;
+  margin-bottom: 1.2em;
 }
 
 a {
@@ -31,6 +57,14 @@ a {
   &:hover {
     color: shade($action-color, 25%);
   }
+}
+
+strong {
+  font-weight: bold;
+}
+
+small, .font--small {
+  font-size: $font-size-smallest;
 }
 
 hr {

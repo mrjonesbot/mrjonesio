@@ -1,0 +1,89 @@
+// Colors
+$blue: #1565c0;
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #ddd;
+
+// Font Colors
+$base-font-color: $dark-gray;
+$action-color: $blue;
+
+// Border Colors
+$base-border-color: $light-gray;
+$base-border: 1px solid $base-border-color;
+
+// Background Colors
+$base-background-color: #fff;
+$samara-background-color: #fffdf8;
+$secondary-background-color: tint($base-border-color, 75%);
+
+// Spacing
+$base-spacing: 1em;
+$small-spacing: $base-spacing / 2;
+$medium-spacing: $base-spacing * 2;
+$large-spacing: $base-spacing * 3.75;
+$x-large-spacing: $base-spacing * 5;
+
+// Padding
+$side-padding: 1em;
+// $sans-serif: "proxima-nova-1", "proxima-nova-2", "museo-sans-1", "museo-sans-2", helvetica neue, sans-serif;
+// $serif: "adelle-1", "adelle-2", helvetica;
+// Typography
+$base-font-family: $font-stack-system;
+$heading-font-family: $base-font-family;
+
+// Font Sizes
+$font-size-smallest: rem(12);
+$base-size-14: 0.8.75em;
+$base-size-16: 1em;
+$base-size-18: 1.125em;
+$base-font-size: $base-size-16;
+$header-one-size: $base-font-size * 3.998;
+$header-two-size: $base-font-size * 2.827;
+$header-three-size: $base-font-size * 1.999;
+$header-four-size: $base-font-size * 1.414;
+
+// Font Weight
+$font-weight-thin: 200;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-semibold: 600;
+$font-weight-thick: 800;
+
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
+$site-header-height: 1.2;
+
+// Breakpoints
+$small-screen-size: 520px;
+$medium-screen-size: 768px;
+$large-screen-size: 900px;
+
+// Layout Sizes
+$reading-width: 520px;
+$max-width: 1100px;
+$max-width-narrow: 900px;
+$max-width-thin: 760px;
+$navigation-height: 60px;
+$navigation-cta-offset: 10px;
+$header-height: $navigation-height - ($navigation-cta-offset * 2);
+
+// Other Sizes
+$base-border-radius: 3px;
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+
+// Animations
+$base-duration: 150ms;
+$base-timing: ease;
+
+// Z indexes
+$z-flashcard-deck: -1;
+$z-site-nav: 10;
+$z-header: 20;
+$z-hero: 10;
+$z-headhesive: 30;
+$z-table-of-contents: 19;
+$z-table-of-contents--mobile: 31;
