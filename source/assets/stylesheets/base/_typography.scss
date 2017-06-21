@@ -1,7 +1,7 @@
 body {
   color: $base-font-color;
   font-family: $base-font-family;
-  font-weight: $font-weight-normal;
+  font-weight: $font-weight-light;
   font-size: $base-font-size;
   line-height: $base-line-height;
 }
@@ -20,27 +20,19 @@ h6 {
 }
 
 h1 {
-  margin-top: 0;
   font-size: $header-one-size;
-  //default font weight
-
 }
+
 h2 {
-  margin-top: 0;
   font-size: $header-two-size;
-  //default font weight
+}
 
-}
 h3 {
-  margin-top: 0;
   font-size: $header-three-size;
-  //default font weight
 }
+
 h4 {
-  margin-top: 0;
   font-size: $header-four-size;
-  //default font weight
-  
 }
 
 p {

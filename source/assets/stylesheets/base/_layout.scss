@@ -10,16 +10,10 @@ html {
 
 html,
 body {
-  background-color: $samara-background-color;
+  height: 100%;
   border-top: none;
-  display: flex;
-  flex-direction: column;
   font-family: $font-stack-system;
   line-height: 20px;
-  margin: 0 auto;
-  min-height: 100vh;
-  position: relative;
-  min-width: 320px;
 }
 
 section {

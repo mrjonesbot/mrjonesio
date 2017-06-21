@@ -1,5 +1,60 @@
-// .message {
-//   width: 900px;
-//   margin-left: auto;
-//   margin-right: auto;
-// }
+.about {
+}
+
+.about p {
+  font-size: 22px;
+}
+
+.tools {
+}
+
+.at-this-moment {
+}
+
+.contact {
+}
+
+.contact h4 {
+  font-weight:$font-weight-normal;
+}
+
+// shared text manipulations
+.about h4,
+.contact h4 {
+  font-weight:$font-weight-normal;
+  letter-spacing: 0.04em;
+}
+
+.tools p,
+.at-this-moment p,
+.connect p {
+  font-weight: bold;
+}
+
+.about p,
+.tools li,
+.at-this-moment li,
+.connect {
+  letter-spacing: 0.02em;
+}
+
+// shared layout spacing
+.about h4,
+.contact h4 {
+  margin-top: 4.5em;
+  margin-bottom: 4.5em;
+}
+
+.tools,
+.at-this-moment,
+.connect {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.about p,
+.tools li,
+.at-this-moment li,
+.connect li {
+  margin-left: 2em;
+}
