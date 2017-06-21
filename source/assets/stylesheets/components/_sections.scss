@@ -2,7 +2,14 @@
 }
 
 .about p {
-  font-size: 22px;
+  font-size: $header-four-size;
+
+  @include below($small-screen-size) {
+    display: none;
+  }
+  @include below($medium-screen-size) {
+    display: none;
+  }
 }
 
 .tools {
@@ -36,6 +43,10 @@
 .at-this-moment li,
 .connect {
   letter-spacing: 0.04em;
+  @include below($medium-screen-size) {
+    font-size: $base-size-16;
+    letter-spacing: 0.02em;
+  }
 }
 
 // shared layout spacing

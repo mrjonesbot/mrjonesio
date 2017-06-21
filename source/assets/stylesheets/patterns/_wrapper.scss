@@ -4,4 +4,15 @@
   min-height: 96vh;
   margin:0 20% 0 20%;
   border-right: 0.4em solid $coral-red;
+
+  @include below($small-screen-size) {
+    margin:0 5% 0 5%;
+    border-right: 0;
+  }
+}
+
+body {
+  @include below($small-screen-size) {
+    border-top: 0.4em solid $coral-red;
+  }
 }
