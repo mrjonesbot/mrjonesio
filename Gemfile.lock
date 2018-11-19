@@ -37,8 +37,6 @@ GEM
     fast_blank (1.0.0)
     fastimage (2.1.0)
     ffi (1.9.18)
-    font-awesome-sass (4.7.0)
-      sass (>= 3.2)
     haml (5.0.1)
       temple (>= 0.8.0)
       tilt
@@ -152,7 +150,6 @@ PLATFORMS
 DEPENDENCIES
   accesslint-ci (= 0.2.8)
   bourbon (~> 5.0.0.beta.7)
-  font-awesome-sass
   middleman (~> 4.2)
   middleman-aria_current (~> 0.1)
   middleman-autoprefixer (~> 2.7)
@@ -164,7 +161,7 @@ DEPENDENCIES
   sassc (~> 1.11)
 
 RUBY VERSION
-   ruby 2.3.1p112
+   ruby 2.5.3p105
 
 BUNDLED WITH
-   1.15.1
+   1.17.1
