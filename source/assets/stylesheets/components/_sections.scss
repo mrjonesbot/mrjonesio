@@ -3,13 +3,6 @@
 
 .about p {
   font-size: $header-four-size;
-
-  @include below($small-screen-size) {
-    display: none;
-  }
-  @include below($medium-screen-size) {
-    display: none;
-  }
 }
 
 .tools {

@@ -36,7 +36,7 @@ GEM
     execjs (2.7.0)
     fast_blank (1.0.0)
     fastimage (2.1.0)
-    ffi (1.9.18)
+    ffi (1.9.25)
     haml (5.0.1)
       temple (>= 0.8.0)
       tilt
@@ -114,7 +114,7 @@ GEM
       activesupport (>= 3.1)
     parallel (1.11.2)
     public_suffix (2.0.5)
-    rack (2.0.3)
+    rack (2.0.6)
     rack-livereload (0.3.16)
       rack
     rake (12.0.0)
