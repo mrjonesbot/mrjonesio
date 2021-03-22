@@ -11,9 +11,9 @@ Inspired by "Rails magic" and the open source community, I'm driven to build pro
 
   _Jan. 2020 - Present_
 
-* **Launchpad Lab** 
+* **Developer** 
 
-  Developer 
+  Launchpad Lab
 
   _Sept. 2017 - Aug 2019_
 
