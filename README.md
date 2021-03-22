@@ -1,10 +1,8 @@
----
-description: natejones@hey.com
----
-
 # Nathan Jones
 
 Inspired by "Rails magic" and the open source community, I'm driven to build productive and delightful products. A firm believer in developer happiness I strive to communicate clearly, write legible code and collaborate with my colleagues.
+
+_natejones@hey.com_
 
 #### **Experience**
 
