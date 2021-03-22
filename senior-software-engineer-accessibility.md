@@ -9,8 +9,9 @@ description: Github Application - Nathan Jones
 I want to work at Github if:
 
 * My product ideas are valued as much as my technical contributions
-* I am encouraged to engage in new roles and seek new skills
+* I am encouraged to engage in new roles, develop new skills and step outside my comfort zone
 * Collaboration is rewarded and innovation is encouraged
+* Github supports a positive, empathetic and stable work environment
 
 ### Why do you feel you would be a fit for this role?
 
