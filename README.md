@@ -30,7 +30,6 @@ _natejones@hey.com_
 * Ruby / Ruby on Rails
 * Javascript / Hotwire
 * PostgreSQL
-* RSpec
 * VIM + tmux
 
 #### Education
