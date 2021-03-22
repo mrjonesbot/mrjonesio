@@ -12,7 +12,7 @@ Inspired by "Rails magic" and the open source community, I'm driven to build pro
   Yello.co   
   _Sept. 2019 - Present_
 
-  \*\*\*\*
+  \_\_
 
 * **Associate Faculty** **for KIEI-451** 
 
