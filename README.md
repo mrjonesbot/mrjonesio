@@ -21,7 +21,7 @@ Inspired by "Rails magic" and the open source community, I'm driven to build pro
 
 * Communicate technical ideas in non-technical ways
 * Translate high level product objectives into actionable units of development work
-* Small, continuous refactoring of complex systems through TDD
+* Continuous refactoring of complex systems through TDD
 
 #### Tools
 
