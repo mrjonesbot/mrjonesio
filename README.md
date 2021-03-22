@@ -1,77 +1,50 @@
-# Middleman Template
+---
+description: natejones@hey.com
+---
 
-The base Middleman application used at [thoughtbot], ready to deploy
-to [Netlify].
+# Nathan Jones
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thoughtbot/middleman-template)
+Inspired by "Rails magic" and the open source community, I'm driven to build productive and delightful products. A firm believer in developer happiness I strive to communicate clearly, write legible code and collaborate with my colleagues.
 
-  [thoughtbot]: https://thoughtbot.com/
-  [Netlify]: https://www.netlify.com/
+### **Experience**
 
-## Configuration
+* **Senior Software Engineer & Team Lead**   
+  Yello.co   
+  _Sept. 2019 - Present_
 
-This template comes with the following features and tools:
+  \*\*\*\*
 
-- [middleman-aria_current]: An extension for indicating a current (active) link
-  using `aria-current`.
-- [middleman-autoprefixer]: Automatically vendor-prefix stylesheets.
-- [middleman-livereload]: Automatically refresh the browser as soon as you save
-  a file.
-- [middleman-minify-html]: Minifies whitespace around HTML when the site is
-  built.
-- [SassC]: CSS pre-processor.
-- [Bourbon]: Sass tool set.
-- [Neat]: Sass grid.
-- [Bitters]: Scaffold styles, variables and structure.
-- [normalize.css]: Modern CSS "reset"
-- [Redcarpet]: Markdown processing.
-- [An SVG view helper][svg]: Output inline SVG's in your views,
-  e.g. `<%= svg("logo") %>`.
-- [CircleCI]: Continuous integration.
-- [AccessLint]: For keeping accessibility issues in check.
-- [Hound]: Comments on style violations in GitHub pull requests.
-- [Segment]: Analytics API.
+* **Associate Faculty** **for KIEI-451** 
 
-  [middleman-aria_current]: https://github.com/thoughtbot/middleman-aria_current
-  [middleman-autoprefixer]: https://github.com/middleman/middleman-autoprefixer
-  [middleman-livereload]: https://github.com/middleman/middleman-livereload
-  [middleman-minify-html]: https://github.com/middleman/middleman-minify-html
-  [SassC]: https://github.com/sass/sassc
-  [Bourbon]: https://github.com/thoughtbot/bourbon
-  [Neat]: https://github.com/thoughtbot/neat
-  [Bitters]: https://github.com/thoughtbot/bitters
-  [normalize.css]: https://github.com/necolas/normalize.css/
-  [Redcarpet]: https://github.com/vmg/redcarpet
-  [svg]: https://github.com/thoughtbot/middleman-template/blob/master/helpers/application_helpers.rb#L18-L25
-  [CircleCI]: https://circleci.com/
-  [AccessLint]: https://accesslint.com/
-  [Hound]: https://houndci.com/repos
-  [Segment]: https://segment.com/
+  Kellogg School of Management - Northwestern 
 
-## Contributing
+  _Jan. 2020 - Present_
 
-See the [contributing document].
-Thank you, [contributors]!
+* **Launchpad Lab** 
 
-  [contributing document]: CONTRIBUTING.md
-  [contributors]: https://github.com/thoughtbot/middleman-aria_current/graphs/contributors
+  Developer 
 
-## License
+  _Sept. 2017 - Aug 2019_
 
-Copyright © 2017 Tyson Gach and thoughtbot, inc. This is free software, and may
-be redistributed under the terms specified in the [LICENSE] file.
+### Skills
 
-  [license]: LICENSE.md
+* Communicate technical ideas in non-technical ways
+* Translate high level product objectives into actionable units of development work
+* Small, continuous refactoring of complex systems through TDD
 
-## About
+### Tools
 
-![thoughtbot](http://presskit.thoughtbot.com/images/thoughtbot-logo-for-readmes.svg)
+* Ruby / Ruby on Rails
+* Javascript / Hotwire
+* PostgreSQL
+* RSpec
+* VIM + tmux
 
-This project is maintained and funded by thoughtbot, inc. The names and logos
-for thoughtbot are trademarks of thoughtbot, inc.
+### Education
 
-We love open source software! See [our other projects][community] or
-[hire us][hire] to help build your product.
+* **Bachelor of Architecture** 
 
-  [community]: https://thoughtbot.com/community?utm_source=github
-  [hire]: https://thoughtbot.com/hire-us?utm_source=github
+  Syracuse University
+
+  2009-2014
+
